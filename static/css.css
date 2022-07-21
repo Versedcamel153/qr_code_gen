@@ -1,0 +1,62 @@
+@font-face {
+    font-family: myFont;
+    src: url(ShadowsIntoLight-Regular.ttf);
+}
+body {
+    font-family: myFont;
+}
+#img {
+    display: none;
+}
+
+#hide {
+    display: none;
+}
+
+button {
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 5rem;
+    background-color: aquamarine;
+    font-family: myFont;
+}
+
+
+table {
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    width: fit-content;
+    font-size: larger;
+    align-content: center;
+}
+.content {
+    margin-top: 8rem;
+}
+@media screen {
+    
+}
+
+#result {
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    width: fit-content;
+}
+
+#raw {
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 25rem ;
+    font-family: myFont;
+    font-weight: bold;
+
+}
+#raw:focus {
+    border: 5px solid royalblue;
+}
+
